@@ -62,7 +62,7 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/ehanz12/ehanz12/output/snake.svg" alt="Snake animation" />
+
 
 ###
 
