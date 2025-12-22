@@ -2,7 +2,7 @@
 
 ###
 
-<h4 align="left">🔦 I am a student at Pelita Nusantara Vocational High School, Bogor.<br>📒 i am a progammer Fullstack development<br>🔔my programming language is Php, Js.</h4>
+<h4 align="left">🔦 I am a student at Pelita Nusantara Vocational High School, Bogor.<br>📒 i am a progammer Fullstack development<br>🔔my programming language is PHP, JS, Golang.</h4>
 
 ###
 
