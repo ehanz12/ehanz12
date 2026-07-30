@@ -1,0 +1,98 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="45%" stop-color="#1a0505"/>
+      <stop offset="100%" stop-color="#2b0000"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="82%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#8b0000" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#8b0000" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#8b0000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a5c1e"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#7a5c1e"/>
+    </linearGradient>
+    <filter id="softBlur"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+
+  <!-- ornate border -->
+  <rect x="6" y="6" width="1188" height="288" fill="none" stroke="url(#goldGrad)" stroke-width="2"/>
+  <rect x="14" y="14" width="1172" height="272" fill="none" stroke="#d4af37" stroke-width="0.6" stroke-opacity="0.5"/>
+  <circle cx="6" cy="6" r="5" fill="#d4af37"/>
+  <circle cx="1194" cy="6" r="5" fill="#d4af37"/>
+  <circle cx="6" cy="294" r="5" fill="#d4af37"/>
+  <circle cx="1194" cy="294" r="5" fill="#d4af37"/>
+
+  <!-- gear motifs -->
+  <g opacity="0.28" fill="none" stroke="#d4af37" stroke-width="2">
+    <circle cx="120" cy="230" r="34"/>
+    <circle cx="120" cy="230" r="6" fill="#d4af37" stroke="none"/>
+    <g stroke="#d4af37">
+      <line x1="120" y1="188" x2="120" y2="200"/>
+      <line x1="120" y1="260" x2="120" y2="272"/>
+      <line x1="78" y1="230" x2="90" y2="230"/>
+      <line x1="150" y1="230" x2="162" y2="230"/>
+      <line x1="90" y1="200" x2="98" y2="208"/>
+      <line x1="142" y1="252" x2="150" y2="260"/>
+      <line x1="150" y1="200" x2="142" y2="208"/>
+      <line x1="98" y1="252" x2="90" y2="260"/>
+    </g>
+    <circle cx="1080" cy="65" r="22"/>
+    <circle cx="1080" cy="65" r="4" fill="#d4af37" stroke="none"/>
+  </g>
+
+  <!-- Clock face (Kurumi-style ornate clock) -->
+  <g transform="translate(1000,150)">
+    <circle r="105" fill="#0d0000" stroke="url(#goldGrad)" stroke-width="4"/>
+    <circle r="95" fill="none" stroke="#8b0000" stroke-width="1.5" stroke-opacity="0.7"/>
+    <circle r="88" fill="none" stroke="#d4af37" stroke-width="1"/>
+
+    <!-- roman numerals ticks -->
+    <g stroke="#d4af37" stroke-width="2">
+      <line x1="0" y1="-88" x2="0" y2="-76"/>
+      <line x1="0" y1="88" x2="0" y2="76"/>
+      <line x1="-88" y1="0" x2="-76" y2="0"/>
+      <line x1="88" y1="0" x2="76" y2="0"/>
+    </g>
+    <g stroke="#7a5c1e" stroke-width="1">
+      <line x1="62.2" y1="-62.2" x2="53.7" y2="-53.7"/>
+      <line x1="62.2" y1="62.2" x2="53.7" y2="53.7"/>
+      <line x1="-62.2" y1="-62.2" x2="-53.7" y2="-53.7"/>
+      <line x1="-62.2" y1="62.2" x2="-53.7" y2="53.7"/>
+    </g>
+
+    <!-- clock hands -->
+    <line x1="0" y1="0" x2="0" y2="-55" stroke="#d4af37" stroke-width="4" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="45" y2="20" stroke="#b3282f" stroke-width="4" stroke-linecap="round"/>
+    <circle r="7" fill="#d4af37"/>
+
+    <!-- clockwork rim ticks -->
+    <g fill="#d4af37">
+      <circle cx="0" cy="-100" r="2"/>
+      <circle cx="0" cy="100" r="2"/>
+      <circle cx="100" cy="0" r="2"/>
+      <circle cx="-100" cy="0" r="2"/>
+    </g>
+  </g>
+
+  <!-- Left decorative rose/thorn line -->
+  <g transform="translate(60,60)" opacity="0.85">
+    <path d="M0,60 C10,40 5,20 20,0" fill="none" stroke="#b3282f" stroke-width="2.5"/>
+    <path d="M2,45 C-8,42 -14,50 -18,58" fill="none" stroke="#5a1010" stroke-width="1.8"/>
+    <path d="M10,25 C18,22 24,28 30,26" fill="none" stroke="#5a1010" stroke-width="1.8"/>
+  </g>
+
+  <!-- Title text -->
+  <text x="90" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#e6c76b" letter-spacing="4" font-weight="bold" filter="url(#softBlur)">RHAN</text>
+  <text x="90" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#d4af37" letter-spacing="4" font-weight="bold">RHAN</text>
+
+  <text x="92" y="185" font-family="Georgia, serif" font-size="20" fill="#b3282f" letter-spacing="2" font-style="italic">Fullstack Developer &#183; Time is my weapon, code is my craft</text>
+
+  <text x="92" y="215" font-family="'Courier New', monospace" font-size="14" fill="#8a8a8a" letter-spacing="1">PHP &#183; JavaScript &#183; Golang</text>
+</svg>
