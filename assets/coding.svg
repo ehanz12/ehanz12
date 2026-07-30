@@ -1,0 +1,168 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0a000a"/>
+      <stop offset="100%" stop-color="#050005"/>
+    </radialGradient>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0505"/>
+      <stop offset="50%" stop-color="#0a0000"/>
+      <stop offset="100%" stop-color="#1a0505"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0010"/>
+      <stop offset="100%" stop-color="#050008"/>
+    </linearGradient>
+    <linearGradient id="codeGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff69b4"/>
+      <stop offset="100%" stop-color="#dc143c"/>
+    </linearGradient>
+    <linearGradient id="codeGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#dc143c"/>
+      <stop offset="100%" stop-color="#ff69b4"/>
+    </linearGradient>
+    <filter id="screenGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="neonEdge">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bgGrad)"/>
+
+  <!-- Monitor frame -->
+  <g transform="translate(200, 195)">
+    <!-- Outer glow -->
+    <rect x="-165" y="-140" width="330" height="280" rx="16" fill="none" stroke="#dc143c" stroke-width="2" opacity="0.15" filter="url(#neonEdge)"/>
+    <rect x="-165" y="-140" width="330" height="280" rx="16" fill="none" stroke="#ff69b4" stroke-width="1" opacity="0.1" filter="url(#neonEdge)" transform="translate(2,2)"/>
+    
+    <!-- Monitor body -->
+    <rect x="-155" y="-130" width="310" height="250" rx="12" fill="url(#frameGrad)" stroke="#dc143c" stroke-width="1" opacity="0.8"/>
+    <rect x="-155" y="-130" width="310" height="250" rx="12" fill="none" stroke="#ff69b4" stroke-width="0.5" opacity="0.3"/>
+    
+    <!-- Inner bezel -->
+    <rect x="-148" y="-123" width="296" height="230" rx="8" fill="#050008" stroke="#8b0000" stroke-width="0.5"/>
+    <rect x="-148" y="-123" width="296" height="230" rx="8" fill="url(#screenGrad)" opacity="0.5"/>
+
+    <!-- Screen neon glow -->
+    <rect x="-148" y="-123" width="296" height="230" rx="8" fill="none" stroke="#ff69b4" stroke-width="0.5" opacity="0.15" filter="url(#screenGlow)"/>
+
+    <!-- Screen content - code lines -->
+    <g opacity="0.8">
+      <!-- Line 1 -->
+      <rect x="-135" y="-110" width="80" height="3" rx="1.5" fill="url(#codeGrad1)" opacity="0.6"/>
+      <rect x="-48" y="-110" width="120" height="3" rx="1.5" fill="#dc143c" opacity="0.3"/>
+      
+      <!-- Line 2 -->
+      <rect x="-125" y="-100" width="60" height="3" rx="1.5" fill="#ff69b4" opacity="0.4"/>
+      <rect x="-58" y="-100" width="160" height="3" rx="1.5" fill="#dc143c" opacity="0.2"/>
+
+      <!-- Line 3 - highlighted -->
+      <rect x="-135" y="-90" width="200" height="4" rx="2" fill="url(#codeGrad2)" opacity="0.7"/>
+      <rect x="-135" y="-90" width="200" height="4" rx="2" fill="#ff69b4" opacity="0.1" filter="url(#screenGlow)"/>
+
+      <!-- Line 4 -->
+      <rect x="-125" y="-78" width="90" height="3" rx="1.5" fill="#dc143c" opacity="0.3"/>
+      <rect x="-28" y="-78" width="140" height="3" rx="1.5" fill="#ff69b4" opacity="0.4"/>
+
+      <!-- Line 5 -->
+      <rect x="-125" y="-68" width="50" height="3" rx="1.5" fill="#dc143c" opacity="0.3"/>
+      <rect x="-68" y="-68" width="180" height="3" rx="1.5" fill="#ff69b4" opacity="0.2"/>
+
+      <!-- Line 6 -->
+      <rect x="-135" y="-58" width="160" height="3" rx="1.5" fill="#dc143c" opacity="0.5"/>
+      
+      <!-- Line 7 -->
+      <rect x="-125" y="-48" width="70" height="3" rx="1.5" fill="#ff69b4" opacity="0.3"/>
+      <rect x="-48" y="-48" width="130" height="3" rx="1.5" fill="#dc143c" opacity="0.2"/>
+
+      <!-- Line 8 -->
+      <rect x="-135" y="-38" width="220" height="3" rx="1.5" fill="url(#codeGrad1)" opacity="0.5"/>
+
+      <!-- Line 9 -->
+      <rect x="-125" y="-28" width="100" height="3" rx="1.5" fill="#dc143c" opacity="0.3"/>
+
+      <!-- Cursor -->
+      <rect x="-125" y="-90" width="7" height="4" rx="1" fill="#ff69b4" opacity="0.9">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Monitor stand -->
+    <rect x="-30" y="120" width="60" height="8" rx="2" fill="#1a0505" stroke="#dc143c" stroke-width="0.5" opacity="0.5"/>
+    <rect x="-50" y="128" width="100" height="6" rx="3" fill="#0a0000" stroke="#dc143c" stroke-width="0.5" opacity="0.4"/>
+
+    <!-- Monitor corner accents -->
+    <circle cx="-155" cy="-130" r="3" fill="#dc143c" opacity="0.5"/>
+    <circle cx="155" cy="-130" r="3" fill="#dc143c" opacity="0.5"/>
+    <circle cx="-155" cy="120" r="3" fill="#dc143c" opacity="0.5"/>
+    <circle cx="155" cy="120" r="3" fill="#dc143c" opacity="0.5"/>
+  </g>
+
+  <!-- === ANIME GIRL CODING === -->
+  <g transform="translate(200, 230)">
+    <!-- Body -->
+    <path d="M-25,15 Q-30,35 -28,55 L-20,65 L-15,65 L-10,55 Q-5,40 0,35 Q5,40 10,55 L15,65 L20,65 L28,55 Q30,35 25,15 Z" 
+          fill="#1a0a0a" stroke="#ff69b4" stroke-width="0.5" stroke-opacity="0.3"/>
+    
+    <!-- Hoodie detail -->
+    <path d="M-28,55 L-20,65 M28,55 L20,65" stroke="#ff69b4" stroke-width="1" opacity="0.3" stroke-linecap="round"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-20" r="22" fill="#1a0a0a"/>
+    <circle cx="0" cy="-20" r="22" fill="none" stroke="#ff69b4" stroke-width="0.5" opacity="0.2"/>
+
+    <!-- Hair -->
+    <path d="M-22,-20 Q-28,-25 -34,-12 Q-42,5 -38,35 Q-36,48 -32,55 Q-30,58 -28,55 Q-24,40 -26,20 Q-27,8 -25,-5 Q-23,-15 -20,-18" 
+          fill="#0a0505"/>
+    <path d="M22,-20 Q28,-25 34,-12 Q42,5 38,35 Q36,48 32,55 Q30,58 28,55 Q24,40 26,20 Q27,8 25,-5 Q23,-15 20,-18" 
+          fill="#0a0505"/>
+
+    <!-- Hair bangs -->
+    <path d="M-15,-40 Q-12,-44 -6,-42 Q-2,-41 0,-42 Q4,-41 8,-43 Q12,-42 15,-38" fill="#0a0505"/>
+    <path d="M-16,-36 Q-12,-40 -6,-38 Q0,-36 6,-38 Q12,-40 16,-36" fill="none" stroke="#0a0505" stroke-width="2"/>
+    
+    <!-- Side hair -->
+    <path d="M-20,-20 Q-24,-22 -27,-16 Q-30,-8 -28,0" fill="none" stroke="#0a0505" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M20,-20 Q24,-22 27,-16 Q30,-8 28,0" fill="none" stroke="#0a0505" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Eyes - focused looking at screen -->
+    <g opacity="0.7">
+      <ellipse cx="-7" cy="-20" rx="4" ry="4" fill="#110505"/>
+      <ellipse cx="-7" cy="-20" rx="3" ry="3" fill="#dc143c" opacity="0.3"/>
+      <circle cx="-7" cy="-20" r="1.5" fill="#ff69b4" opacity="0.5"/>
+      <ellipse cx="7" cy="-20" rx="4" ry="4" fill="#110505"/>
+      <ellipse cx="7" cy="-20" rx="3" ry="3" fill="#dc143c" opacity="0.3"/>
+      <circle cx="7" cy="-20" r="1.5" fill="#ff69b4" opacity="0.5"/>
+    </g>
+
+    <!-- Blush -->
+    <ellipse cx="-11" cy="-15" rx="4" ry="2" fill="#ff69b4" opacity="0.12"/>
+    <ellipse cx="11" cy="-15" rx="4" ry="2" fill="#ff69b4" opacity="0.12"/>
+
+    <!-- Mouth - slight concentration -->
+    <path d="M-2,-12 Q0,-11 2,-12" fill="none" stroke="#ff69b4" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- Arms extended (typing) -->
+    <path d="M-25,15 Q-35,30 -40,45 Q-42,52 -38,55 Q-35,57 -32,52" fill="none" stroke="#1a0a0a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M25,15 Q35,30 40,45 Q42,52 38,55 Q35,57 32,52" fill="none" stroke="#1a0a0a" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Hands -->
+    <circle cx="-32" cy="52" r="4" fill="#1a0a0a"/>
+    <circle cx="32" cy="52" r="4" fill="#1a0a0a"/>
+
+    <!-- Hair glow effect from screen -->
+    <path d="M-22,-20 Q-28,-25 -34,-12 Q-42,5 -38,35" fill="none" stroke="#ff69b4" stroke-width="0.5" opacity="0.08"/>
+    <path d="M22,-20 Q28,-25 34,-12 Q42,5 38,35" fill="none" stroke="#ff69b4" stroke-width="0.5" opacity="0.08"/>
+  </g>
+
+  <!-- Floating code symbols -->
+  <g opacity="0.1">
+    <text x="30" y="80" font-family="monospace" font-size="8" fill="#ff69b4">&lt;/&gt;</text>
+    <text x="320" y="100" font-family="monospace" font-size="8" fill="#dc143c">{ }</text>
+    <text x="50" y="150" font-family="monospace" font-size="8" fill="#ff69b4">()</text>
+    <text x="310" y="180" font-family="monospace" font-size="8" fill="#dc143c">=&gt;</text>
+  </g>
+</svg>

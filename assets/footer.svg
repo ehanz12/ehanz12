@@ -1,0 +1,185 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050005"/>
+      <stop offset="50%" stop-color="#0a0005"/>
+      <stop offset="100%" stop-color="#050005"/>
+    </linearGradient>
+    <linearGradient id="footerLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="15%" stop-color="#dc143c" stop-opacity="0.6"/>
+      <stop offset="35%" stop-color="#ff69b4" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#fff" stop-opacity="0.3"/>
+      <stop offset="65%" stop-color="#ff69b4" stop-opacity="0.8"/>
+      <stop offset="85%" stop-color="#dc143c" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#dc143c"/>
+      <stop offset="50%" stop-color="#ff69b4"/>
+      <stop offset="100%" stop-color="#dc143c"/>
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#dc143c" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#dc143c" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="softGlow"><feGaussianBlur stdDeviation="1.5"/></filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect width="1200" height="300" fill="url(#bgGlow)"/>
+
+  <!-- Top divider line with ornament -->
+  <g transform="translate(0, 30)">
+    <rect x="100" y="-1" width="1000" height="1.5" fill="url(#footerLine)"/>
+    
+    <!-- Left ornament -->
+    <g transform="translate(100, 0)" opacity="0.4">
+      <circle cx="0" cy="0" r="4" fill="#dc143c"/>
+      <circle cx="0" cy="0" r="2" fill="#ff69b4"/>
+      <path d="M4,0 L15,0" stroke="#dc143c" stroke-width="1" opacity="0.3"/>
+      <path d="M-4,0 L-15,0" stroke="#dc143c" stroke-width="1" opacity="0.3"/>
+    </g>
+    
+    <!-- Center diamond -->
+    <g transform="translate(600, 0)" opacity="0.6">
+      <polygon points="0,-8 5,0 0,8 -5,0" fill="#ff69b4"/>
+      <polygon points="0,-8 5,0 0,8 -5,0" fill="none" stroke="#dc143c" stroke-width="0.5" transform="scale(1.5)"/>
+    </g>
+
+    <!-- Right ornament -->
+    <g transform="translate(1100, 0)" opacity="0.4">
+      <circle cx="0" cy="0" r="4" fill="#dc143c"/>
+      <circle cx="0" cy="0" r="2" fill="#ff69b4"/>
+      <path d="M4,0 L15,0" stroke="#dc143c" stroke-width="1" opacity="0.3"/>
+      <path d="M-4,0 L-15,0" stroke="#dc143c" stroke-width="1" opacity="0.3"/>
+    </g>
+  </g>
+
+  <!-- === LARGE ANIME ILLUSTRATION === -->
+  <g transform="translate(600, 180)">
+    <!-- Body -->
+    <path d="M-45,20 Q-55,55 -50,90 L-40,105 L-30,105 L-20,90 Q-10,70 0,60 Q10,70 20,90 L30,105 L40,105 L50,90 Q55,55 45,20 Z" 
+          fill="#1a0a0a" stroke="#ff69b4" stroke-width="0.8" stroke-opacity="0.3"/>
+    
+    <!-- Hoodie details -->
+    <path d="M-50,90 L-40,105 M50,90 L40,105" stroke="#ff69b4" stroke-width="2" opacity="0.3" stroke-linecap="round"/>
+    
+    <!-- Strawberry pattern -->
+    <g fill="#ff69b4" opacity="0.2">
+      <circle cx="-20" cy="40" r="3"/><circle cx="10" cy="45" r="3"/><circle cx="25" cy="60" r="2.5"/>
+      <circle cx="-15" cy="55" r="2"/><circle cx="5" cy="70" r="2.5"/><circle cx="-25" cy="50" r="2"/>
+    </g>
+
+    <!-- Head -->
+    <circle cx="0" cy="-30" r="38" fill="#1a0a0a"/>
+    <circle cx="0" cy="-30" r="38" fill="none" stroke="#ff69b4" stroke-width="0.8" opacity="0.2"/>
+
+    <!-- Long flowing hair -->
+    <path d="M-38,-30 Q-48,-38 -56,-18 Q-68,12 -62,58 Q-58,85 -52,100 Q-48,108 -44,100 Q-38,75 -42,40 Q-44,18 -40,0 Q-38,-12 -34,-22" 
+          fill="#0a0505"/>
+    <path d="M38,-30 Q48,-38 56,-18 Q68,12 62,58 Q58,85 52,100 Q48,108 44,100 Q38,75 42,40 Q44,18 40,0 Q38,-12 34,-22" 
+          fill="#0a0505"/>
+    
+    <!-- Wind-blown hair effect -->
+    <path d="M-56,-18 Q-65,-15 -72,-8 Q-80,0 -78,10" fill="none" stroke="#0a0505" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <path d="M-52,100 Q-58,105 -62,108" fill="none" stroke="#0a0505" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- Hair bangs -->
+    <path d="M-25,-65 Q-18,-70 -10,-67 Q-4,-65 0,-67 Q6,-65 12,-68 Q18,-66 25,-62" fill="#0a0505"/>
+    <path d="M-28,-60 Q-22,-66 -12,-63 Q0,-60 12,-64 Q22,-66 28,-58" fill="none" stroke="#0a0505" stroke-width="2.5"/>
+
+    <!-- Hair strands -->
+    <path d="M-36,-30 Q-42,-33 -46,-25 Q-50,-15 -48,-5" fill="none" stroke="#0a0505" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M36,-30 Q42,-33 46,-25 Q50,-15 48,-5" fill="none" stroke="#0a0505" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Eyes - closed serene -->
+    <path d="M-16,-32 Q-10,-38 -4,-32" fill="none" stroke="#ff69b4" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <path d="M4,-32 Q10,-38 16,-32" fill="none" stroke="#ff69b4" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Lashes -->
+    <path d="M-16,-32 L-18,-35 M-14,-34 L-15,-37 M-8,-36 L-8,-39" stroke="#ff69b4" stroke-width="0.8" stroke-linecap="round" opacity="0.3"/>
+    <path d="M16,-32 L18,-35 M14,-34 L15,-37 M8,-36 L8,-39" stroke="#ff69b4" stroke-width="0.8" stroke-linecap="round" opacity="0.3"/>
+
+    <!-- Blush -->
+    <ellipse cx="-20" cy="-24" rx="7" ry="4" fill="#ff69b4" opacity="0.12"/>
+    <ellipse cx="20" cy="-24" rx="7" ry="4" fill="#ff69b4" opacity="0.12"/>
+
+    <!-- Gentle smile -->
+    <path d="M-5,-18 Q0,-14 5,-18" fill="none" stroke="#ff69b4" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- Hair ribbon -->
+    <path d="M15,-65 Q22,-70 18,-60" fill="none" stroke="#dc143c" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M18,-60 Q28,-57 22,-52" fill="none" stroke="#dc143c" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Arms -->
+    <path d="M-45,20 Q-60,45 -55,75 Q-52,88 -45,82" fill="none" stroke="#1a0a0a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M45,20 Q60,45 55,75 Q52,88 45,82" fill="none" stroke="#1a0a0a" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Sleeve ends -->
+    <path d="M-45,82 Q-38,87 -32,82" fill="none" stroke="#ff69b4" stroke-width="1.5" opacity="0.3"/>
+    <path d="M45,82 Q38,87 32,82" fill="none" stroke="#ff69b4" stroke-width="1.5" opacity="0.3"/>
+
+    <!-- === BLACK CAT IN LAP === -->
+    <g transform="translate(0, 75)">
+      <ellipse cx="0" cy="-5" rx="24" ry="16" fill="#0a0505" stroke="#2a0a0a" stroke-width="0.5"/>
+      <circle cx="15" cy="-22" r="13" fill="#0d0707"/>
+      
+      <!-- Cat ears -->
+      <path d="M8,-32 L5,-44 L14,-35" fill="#0d0707"/>
+      <path d="M22,-32 L25,-44 L16,-35" fill="#0d0707"/>
+      <path d="M9,-33 L7,-42 L13,-35" fill="#ff69b4" opacity="0.15"/>
+      <path d="M21,-33 L23,-42 L17,-35" fill="#ff69b4" opacity="0.15"/>
+      
+      <!-- Cat eyes -->
+      <ellipse cx="11" cy="-22" rx="4" ry="5" fill="#110505"/>
+      <ellipse cx="11" cy="-22" rx="3" ry="4" fill="#dc143c" opacity="0.2"/>
+      <circle cx="11" cy="-22" r="2" fill="#ff69b4" opacity="0.4"/>
+      
+      <ellipse cx="19" cy="-22" rx="4" ry="5" fill="#110505"/>
+      <ellipse cx="19" cy="-22" rx="3" ry="4" fill="#dc143c" opacity="0.2"/>
+      <circle cx="19" cy="-22" r="2" fill="#ff69b4" opacity="0.4"/>
+      
+      <!-- Cat nose & mouth -->
+      <circle cx="15" cy="-18" r="1.2" fill="#ff69b4" opacity="0.3"/>
+      <path d="M13,-17 L15,-15 L17,-17" fill="none" stroke="#ff69b4" stroke-width="0.5" opacity="0.2"/>
+      
+      <!-- Cat tail -->
+      <path d="M-22,0 Q-35,-5 -40,-18 Q-42,-28 -36,-30" fill="none" stroke="#0d0707" stroke-width="4" stroke-linecap="round"/>
+      
+      <!-- Cat paws -->
+      <ellipse cx="8" cy="12" rx="5" ry="4" fill="#0d0707"/>
+      <ellipse cx="20" cy="12" rx="5" ry="4" fill="#0d0707"/>
+    </g>
+  </g>
+
+  <!-- Floating particles -->
+  <g fill="#dc143c" opacity="0.08">
+    <circle cx="200" cy="180" r="2"><animate attributeName="opacity" values="0.08;0.2;0.08" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="120" r="1.5"><animate attributeName="opacity" values="0.08;0.15;0.08" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="160" r="2"><animate attributeName="opacity" values="0.08;0.18;0.08" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="850" cy="100" r="1.5"><animate attributeName="opacity" values="0.08;0.12;0.08" dur="2.8s" repeatCount="indefinite"/></circle>
+  </g>
+  <g fill="#ff69b4" opacity="0.06">
+    <circle cx="250" cy="240" r="1.5"><animate attributeName="opacity" values="0.06;0.14;0.06" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="950" cy="220" r="2"><animate attributeName="opacity" values="0.06;0.1;0.06" dur="2.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Quote -->
+  <g transform="translate(600, 265)">
+    <text x="0" y="0" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-style="italic" 
+          fill="none" stroke="#dc143c" stroke-width="0.5" text-anchor="middle" opacity="0.3" filter="url(#softGlow)">"Time is what I control, and code is what I create."</text>
+    <text x="0" y="0" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-style="italic" 
+          fill="url(#titleGrad)" text-anchor="middle" opacity="0.8">"Time is what I control, and code is what I create."</text>
+  </g>
+
+  <!-- Bottom divider -->
+  <g transform="translate(0, 280)">
+    <rect x="100" y="-1" width="1000" height="1" fill="url(#footerLine)" opacity="0.5"/>
+    <g transform="translate(600, 0)" opacity="0.3">
+      <circle cx="0" cy="0" r="3" fill="#dc143c"/>
+      <circle cx="0" cy="0" r="1.5" fill="#ff69b4"/>
+    </g>
+  </g>
+</svg>
