@@ -34,7 +34,7 @@
   <tr>
     <!-- LEFT: About Me -->
     <td width="33%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; backdrop-filter: blur(10px); box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
+      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
         <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
           <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">ABOUT ME</span>
         </div>
@@ -71,14 +71,14 @@
 
     <!-- CENTER: Anime Girl Coding -->
     <td width="34%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 12px; backdrop-filter: blur(10px); box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
+      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 12px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
         <img src="./assets/coding.svg" alt="Coding" width="100%" style="border-radius: 10px;" />
       </div>
     </td>
 
     <!-- RIGHT: Currently -->
     <td width="33%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; backdrop-filter: blur(10px); box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
+      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
         <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
           <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">CURRENTLY...</span>
         </div>
@@ -110,12 +110,12 @@
 
 <br>
 
-<!-- SECTION 3: FEATURED PROJECTS | CHIBI | TECH STACK -->
+<!-- SECTION 3: FEATURED PROJECTS | KURUMI | TECH STACK -->
 <table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
   <tr>
     <!-- LEFT: Featured Projects -->
     <td width="33%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; backdrop-filter: blur(10px); box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
+      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
         <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
           <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">✦ FEATURED PROJECTS</span>
         </div>
@@ -154,16 +154,16 @@
       </div>
     </td>
 
-    <!-- CENTER: Chibi -->
+    <!-- CENTER: Kurumi Tokisaki -->
     <td width="34%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 12px; backdrop-filter: blur(10px); box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
-        <img src="./assets/chibi.svg" alt="Chibi" width="100%" style="border-radius: 10px;" />
+      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 12px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
+        <img src="./assets/kurumi.svg" alt="Kurumi Tokisaki - Date A Live" width="100%" style="border-radius: 10px;" />
       </div>
     </td>
 
     <!-- RIGHT: Tech Stack -->
     <td width="33%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; backdrop-filter: blur(10px); box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
+      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
         <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
           <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">TECH STACK</span>
         </div>
@@ -231,7 +231,7 @@
   <tr>
     <!-- LEFT: Current Focus -->
     <td width="33%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; backdrop-filter: blur(10px); box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
+      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
         <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
           <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">CURRENT FOCUS</span>
         </div>
@@ -282,7 +282,7 @@
 
     <!-- CENTER: Quote -->
     <td width="34%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 280px; background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 32px 24px; backdrop-filter: blur(10px); box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
+      <div align="center" style="display: flex; flex-direction: column; justify-content: center; align-items: center; background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 32px 24px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
         <div style="font-size: 36px; color: #dc143c; opacity: 0.15; line-height: 0; margin-bottom: 20px;">"</div>
         <div style="font-family: Georgia, serif; font-size: 20px; font-style: italic; color: #ff69b4; line-height: 1.6; text-shadow: 0 0 20px rgba(255,105,180,0.1);">
           Every line of code<br>is a tick of the clock.
@@ -294,7 +294,7 @@
 
     <!-- RIGHT: GitHub Stats Dashboard -->
     <td width="33%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; backdrop-filter: blur(10px); box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
+      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
         <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
           <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">GITHUB STATS</span>
         </div>
@@ -313,17 +313,17 @@
 <br>
 
 <!-- SECTION 5: TROPHIES -->
-<div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; backdrop-filter: blur(10px); box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03); margin: 0 8px;">
+<div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03); margin: 0 8px;">
   <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 20px;">
     <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">🏆 GITHUB TROPHIES</span>
   </div>
-  <img src="https://github-profile-trophy.vercel.app/?username=ehanz12&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7&row=1" alt="Trophies" width="100%" style="filter: drop-shadow(0 0 10px rgba(220,20,60,0.15));" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ehanz12&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7&row=1" alt="Trophies" width="100%" />
 </div>
 
 <br>
 
 <!-- STREAK STATS -->
-<div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; backdrop-filter: blur(10px); box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03); margin: 0 8px;">
+<div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03); margin: 0 8px;">
   <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
     <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">⬡ STREAK TRACKER</span>
   </div>
@@ -333,7 +333,7 @@
 <br>
 
 <!-- ACTIVITY GRAPH -->
-<div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; backdrop-filter: blur(10px); box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03); margin: 0 8px;">
+<div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03); margin: 0 8px;">
   <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
     <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">◈ CONTRIBUTION GRAPH</span>
   </div>
@@ -343,7 +343,7 @@
 <br>
 
 <!-- SNAKE ANIMATION -->
-<div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; backdrop-filter: blur(10px); box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03); margin: 0 8px;">
+<div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03); margin: 0 8px;">
   <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
     <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">≋ CONTRIBUTION SNAKE</span>
   </div>
