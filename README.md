@@ -35,7 +35,7 @@
     <!-- LEFT: Kurumi SVG (Image) -->
     <td width="42%" style="padding: 10px; vertical-align: middle;">
       <div align="center" style="background: #0f0204; border: 2px solid #dc143c; border-radius: 20px; padding: 15px; box-shadow: 0 4px 25px rgba(220,20,60,0.25);">
-        <img src="./assets/kurumi.svg" alt="Kurumi Tokisaki" width="100%" style="border-radius: 12px; display: block;" />
+        <img src=".assets/( 時崎狂三 ).jpg" alt="Kurumi Tokisaki" width="100%" style="border-radius: 12px  display: block;" />
       </div>
     </td>
     <!-- RIGHT: About Me (Text) -->
@@ -150,7 +150,6 @@
         <div style="border-bottom: 2px solid #dc143c; padding-bottom: 10px; margin-bottom: 15px;">
           <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 18px; font-weight: bold; color: #dc143c; letter-spacing: 2px;">🚀 PROYEK UTAMA</span>
         </div>
-        
         <!-- Projects Grid -->
         <div style="margin-bottom: 20px;">
           <div style="margin-bottom: 12px; padding: 12px; background: rgba(220,20,60,0.04); border-radius: 12px; border: 1px solid rgba(220,20,60,0.15); display: flex; align-items: center; gap: 12px;">
@@ -175,7 +174,6 @@
             </div>
           </div>
         </div>
-
         <!-- Tech Stack Badge Area -->
         <div style="border-top: 1px solid rgba(220,20,60,0.25); padding-top: 15px; margin-top: 15px;">
           <div style="font-family: monospace; font-size: 11px; color: #ff69b4; letter-spacing: 2px; margin-bottom: 10px; font-weight: bold;">TEKNOLOGI DAN ALAT</div>
