@@ -29,73 +29,36 @@
 
 <br>
 
-<!-- SECTION 2: ABOUT ME | CODING GIRL | CURRENTLY -->
+<!-- ZIG-ZAG SECTION 1: LEFT IMAGE (KURUMI) | RIGHT CONTENT (ABOUT ME) -->
 <table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
   <tr>
-    <!-- LEFT: About Me -->
-    <td width="33%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
-        <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
-          <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">ABOUT ME</span>
-        </div>
-        <div align="left" style="font-family: 'Courier New', monospace; font-size: 13px; color: #c0a0a0; line-height: 2;">
-          <div style="padding: 4px 0;">
-            <span style="color: #ff69b4;">◆</span> High School Student
-          </div>
-          <div style="padding: 4px 0;">
-            <span style="color: #ff69b4;">◆</span> Fullstack Developer
-          </div>
-          <div style="padding: 4px 0;">
-            <span style="color: #ff69b4;">◆</span> Backend Enthusiast
-          </div>
-          <div style="padding: 4px 0;">
-            <span style="color: #ff69b4;">◆</span> Laravel · Golang · React
-          </div>
-          <div style="padding: 4px 0;">
-            <span style="color: #ff69b4;">◆</span> Clean Architecture
-          </div>
-        </div>
-        <div style="margin-top: 16px; padding: 10px; background: rgba(220,20,60,0.05); border-radius: 8px; border: 1px solid rgba(220,20,60,0.1);">
-          <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-            <span style="font-family: monospace; font-size: 11px; color: #dc143c;">Passion</span>
-            <span style="font-family: monospace; font-size: 11px; color: #ff69b4;">98%</span>
-          </div>
-          <div style="height: 4px; background: rgba(220,20,60,0.1); border-radius: 2px; overflow: hidden;">
-            <div style="width: 98%; height: 100%; background: linear-gradient(90deg, #dc143c, #ff69b4); border-radius: 2px;"></div>
-          </div>
-        </div>
+    <!-- LEFT: Kurumi SVG (Image) -->
+    <td width="42%" style="padding: 10px; vertical-align: middle;">
+      <div align="center" style="background: #0f0204; border: 2px solid #dc143c; border-radius: 20px; padding: 15px; box-shadow: 0 4px 25px rgba(220,20,60,0.25);">
+        <img src="./assets/kurumi.svg" alt="Kurumi Tokisaki" width="100%" style="border-radius: 12px; display: block;" />
       </div>
     </td>
-    <!-- CENTER: Anime Girl Coding -->
-    <td width="34%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 12px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
-        <img src="./assets/coding.svg" alt="Coding" width="100%" style="border-radius: 10px;" />
-      </div>
-    </td>
-    <!-- RIGHT: Currently -->
-    <td width="33%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
-        <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
-          <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">CURRENTLY...</span>
+    <!-- RIGHT: About Me (Text) -->
+    <td width="58%" style="padding: 10px; vertical-align: middle;">
+      <div style="background: #0f0204; border: 1px solid rgba(220,20,60,0.3); border-radius: 20px; padding: 25px; min-height: 320px; box-shadow: inset 0 0 20px rgba(220,20,60,0.05);">
+        <div style="border-bottom: 2px solid #dc143c; padding-bottom: 10px; margin-bottom: 15px;">
+          <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 18px; font-weight: bold; color: #dc143c; letter-spacing: 2px;">✦ TENTANG SAYA</span>
         </div>
-        <div align="left" style="font-family: 'Courier New', monospace; font-size: 13px; color: #c0a0a0; line-height: 2.2;">
-          <div style="padding: 6px 0; border-bottom: 1px solid rgba(220,20,60,0.08);">
-            <span style="color: #ff69b4;">❯</span> Building cool projects
-            <div style="margin-top: 4px; height: 3px; background: rgba(220,20,60,0.1); border-radius: 2px; overflow: hidden;">
-              <div style="width: 75%; height: 100%; background: linear-gradient(90deg, #dc143c, #ff69b4); border-radius: 2px;"></div>
-            </div>
+        <p style="font-family: 'Segoe UI', sans-serif; font-size: 14.5px; color: #e0c0c0; line-height: 1.6; margin: 0 0 15px 0;">
+          Halo! Saya <strong>Rhan (Ehan)</strong>, seorang Fullstack Developer berbakat sekaligus siswa sekolah menengah yang memiliki gairah tinggi dalam pengembangan perangkat lunak dan arsitektur backend yang clean. Saya senang memecahkan masalah kompleks dan membangun aplikasi yang efisien, skalabel, serta berkinerja tinggi.
+        </p>
+        <div style="font-family: 'Courier New', monospace; font-size: 13.5px; color: #ff69b4; line-height: 1.8;">
+          <div><span style="color: #dc143c;">◆</span> <strong>Status:</strong> Pelajar & Developer Aktif</div>
+          <div><span style="color: #dc143c;">◆</span> <strong>Fokus:</strong> Clean Architecture & API Design</div>
+          <div><span style="color: #dc143c;">◆</span> <strong>Keahlian:</strong> Laravel · Golang · React · Node.js</div>
+        </div>
+        <div style="margin-top: 20px; padding: 12px; background: rgba(220,20,60,0.05); border-radius: 10px; border: 1px solid rgba(220,20,60,0.15);">
+          <div style="display: flex; justify-content: space-between; margin-bottom: 6px;">
+            <span style="font-family: monospace; font-size: 12px; color: #dc143c; font-weight: bold;">Semangat & Passion</span>
+            <span style="font-family: monospace; font-size: 12px; color: #ff69b4; font-weight: bold;">99%</span>
           </div>
-          <div style="padding: 6px 0; border-bottom: 1px solid rgba(220,20,60,0.08);">
-            <span style="color: #ff69b4;">❯</span> Learning new tech
-            <div style="margin-top: 4px; height: 3px; background: rgba(220,20,60,0.1); border-radius: 2px; overflow: hidden;">
-              <div style="width: 60%; height: 100%; background: linear-gradient(90deg, #dc143c, #ff69b4); border-radius: 2px;"></div>
-            </div>
-          </div>
-          <div style="padding: 6px 0;">
-            <span style="color: #ff69b4;">❯</span> Improving every day
-            <div style="margin-top: 4px; height: 3px; background: rgba(220,20,60,0.1); border-radius: 2px; overflow: hidden;">
-              <div style="width: 85%; height: 100%; background: linear-gradient(90deg, #dc143c, #ff69b4); border-radius: 2px;"></div>
-            </div>
+          <div style="height: 6px; background: rgba(220,20,60,0.1); border-radius: 3px; overflow: hidden;">
+            <div style="width: 99%; height: 100%; background: linear-gradient(90deg, #dc143c, #ff69b4); border-radius: 3px;"></div>
           </div>
         </div>
       </div>
@@ -105,103 +68,125 @@
 
 <br>
 
-<!-- SECTION 3: FEATURED PROJECTS | KURUMI | TECH STACK -->
+<!-- ZIG-ZAG SECTION 2: LEFT CONTENT (CURRENT FOCUS) | RIGHT IMAGE (CODING) -->
 <table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
   <tr>
-    <!-- LEFT: Featured Projects -->
-    <td width="33%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
-        <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
-          <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">✦ FEATURED PROJECTS</span>
+    <!-- LEFT: Current Focus & Goals (Text) -->
+    <td width="58%" style="padding: 10px; vertical-align: middle;">
+      <div style="background: #0f0204; border: 1px solid rgba(220,20,60,0.3); border-radius: 20px; padding: 25px; min-height: 320px; box-shadow: inset 0 0 20px rgba(220,20,60,0.05);">
+        <div style="border-bottom: 2px solid #dc143c; padding-bottom: 10px; margin-bottom: 15px;">
+          <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 18px; font-weight: bold; color: #dc143c; letter-spacing: 2px;">⚡ FOKUS SAAT INI</span>
         </div>
-        <div align="left">
-          <div style="margin-bottom: 12px; padding: 12px; background: rgba(220,20,60,0.05); border-radius: 10px; border: 1px solid rgba(220,20,60,0.1);">
-            <div style="display: flex; align-items: center; gap: 10px;">
-              <div style="width: 32px; height: 32px; background: linear-gradient(135deg, #dc143c, #ff69b4); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 14px; color: #fff;">S</div>
-              <div>
-                <div style="font-family: Georgia, serif; font-size: 14px; color: #ff69b4;">Smart Presence</div>
-                <div style="font-family: monospace; font-size: 11px; color: #dc143c; opacity: 0.6;">Attendance System</div>
-              </div>
+        <p style="font-family: 'Segoe UI', sans-serif; font-size: 14.5px; color: #e0c0c0; line-height: 1.6; margin: 0 0 20px 0;">
+          Saat ini saya terus memperdalam keahlian di bidang pengembangan backend dengan performa tinggi, penerapan Clean Architecture, serta pembuatan antarmuka modern yang responsif dan interaktif.
+        </p>
+        <div style="font-family: monospace; font-size: 12.5px;">
+          <!-- Laravel Progress -->
+          <div style="margin-bottom: 14px;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+              <span style="color: #e0c0c0; font-weight: bold;">Laravel & Ecosystem</span>
+              <span style="color: #ff69b4; font-weight: bold;">85%</span>
             </div>
-          </div>  
-          <div style="margin-bottom: 12px; padding: 12px; background: rgba(220,20,60,0.05); border-radius: 10px; border: 1px solid rgba(220,20,60,0.1);">
-            <div style="display: flex; align-items: center; gap: 10px;">
-              <div style="width: 32px; height: 32px; background: linear-gradient(135deg, #dc143c, #ff69b4); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 14px; color: #fff;">E</div>
-              <div>
-                <div style="font-family: Georgia, serif; font-size: 14px; color: #ff69b4;">Expense Tracker</div>
-                <div style="font-family: monospace; font-size: 11px; color: #dc143c; opacity: 0.6;">Financial Manager</div>
-              </div>
+            <div style="height: 6px; background: rgba(220,20,60,0.1); border-radius: 3px; overflow: hidden;">
+              <div style="width: 85%; height: 100%; background: linear-gradient(90deg, #dc143c, #ff69b4); border-radius: 3px;"></div>
             </div>
-          </div> 
-          <div style="padding: 12px; background: rgba(220,20,60,0.05); border-radius: 10px; border: 1px solid rgba(220,20,60,0.1);">
-            <div style="display: flex; align-items: center; gap: 10px;">
-              <div style="width: 32px; height: 32px; background: linear-gradient(135deg, #dc143c, #ff69b4); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 14px; color: #fff;">A</div>
-              <div>
-                <div style="font-family: Georgia, serif; font-size: 14px; color: #ff69b4;">AI Second Brain</div>
-                <div style="font-family: monospace; font-size: 11px; color: #dc143c; opacity: 0.6;">Knowledge Base</div>
-              </div>
+          </div>
+          <!-- Golang Progress -->
+          <div style="margin-bottom: 14px;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+              <span style="color: #e0c0c0; font-weight: bold;">Golang Backend Development</span>
+              <span style="color: #ff69b4; font-weight: bold;">60%</span>
+            </div>
+            <div style="height: 6px; background: rgba(220,20,60,0.1); border-radius: 3px; overflow: hidden;">
+              <div style="width: 60%; height: 100%; background: linear-gradient(90deg, #dc143c, #ff69b4); border-radius: 3px;"></div>
+            </div>
+          </div>
+          <!-- React Progress -->
+          <div style="margin-bottom: 14px;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+              <span style="color: #e0c0c0; font-weight: bold;">React & Modern UI (TailwindCSS)</span>
+              <span style="color: #ff69b4; font-weight: bold;">70%</span>
+            </div>
+            <div style="height: 6px; background: rgba(220,20,60,0.1); border-radius: 3px; overflow: hidden;">
+              <div style="width: 70%; height: 100%; background: linear-gradient(90deg, #dc143c, #ff69b4); border-radius: 3px;"></div>
+            </div>
+          </div>
+          <!-- Clean Architecture Progress -->
+          <div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+              <span style="color: #e0c0c0; font-weight: bold;">Clean Architecture & Design Patterns</span>
+              <span style="color: #ff69b4; font-weight: bold;">90%</span>
+            </div>
+            <div style="height: 6px; background: rgba(220,20,60,0.1); border-radius: 3px; overflow: hidden;">
+              <div style="width: 90%; height: 100%; background: linear-gradient(90deg, #dc143c, #ff69b4); border-radius: 3px;"></div>
             </div>
           </div>
         </div>
       </div>
     </td>
-    <!-- CENTER: Kurumi Tokisaki -->
-    <td width="34%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 12px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
-        <img src="./assets/kurumi.svg" alt="Kurumi Tokisaki - Date A Live" width="100%" style="border-radius: 10px;" />
+    <!-- RIGHT: Coding SVG (Image) -->
+    <td width="42%" style="padding: 10px; vertical-align: middle;">
+      <div align="center" style="background: #0f0204; border: 2px solid #dc143c; border-radius: 20px; padding: 15px; box-shadow: 0 4px 25px rgba(220,20,60,0.25);">
+        <img src="./assets/coding.svg" alt="Coding" width="100%" style="border-radius: 12px; display: block;" />
       </div>
     </td>
-    <!-- RIGHT: Tech Stack -->
-    <td width="33%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
-        <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
-          <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">TECH STACK</span>
+  </tr>
+</table>
+
+<br>
+
+<!-- ZIG-ZAG SECTION 3: LEFT IMAGE (CHIBI) | RIGHT CONTENT (PROJECTS & TECH) -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+  <tr>
+    <!-- LEFT: Chibi SVG (Image) -->
+    <td width="40%" style="padding: 10px; vertical-align: middle;">
+      <div align="center" style="background: #0f0204; border: 2px solid #dc143c; border-radius: 20px; padding: 15px; box-shadow: 0 4px 25px rgba(220,20,60,0.25);">
+        <img src="./assets/chibi.svg" alt="Chibi character" width="100%" style="border-radius: 12px; display: block;" />
+      </div>
+    </td>
+    <!-- RIGHT: Projects & Tech Stack (Content) -->
+    <td width="60%" style="padding: 10px; vertical-align: middle;">
+      <div style="background: #0f0204; border: 1px solid rgba(220,20,60,0.3); border-radius: 20px; padding: 25px; min-height: 320px; box-shadow: inset 0 0 20px rgba(220,20,60,0.05);">
+        <div style="border-bottom: 2px solid #dc143c; padding-bottom: 10px; margin-bottom: 15px;">
+          <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 18px; font-weight: bold; color: #dc143c; letter-spacing: 2px;">🚀 PROYEK UTAMA</span>
         </div>
-        <!-- Languages -->
-        <div align="left" style="margin-bottom: 14px;">
-          <div style="font-family: monospace; font-size: 11px; color: #ff69b4; letter-spacing: 2px; margin-bottom: 8px;">LANGUAGES</div>
-          <div>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="28" alt="PHP" style="margin: 2px;" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="28" alt="JavaScript" style="margin: 2px;" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="28" alt="Go" style="margin: 2px;" />
+        
+        <!-- Projects Grid -->
+        <div style="margin-bottom: 20px;">
+          <div style="margin-bottom: 12px; padding: 12px; background: rgba(220,20,60,0.04); border-radius: 12px; border: 1px solid rgba(220,20,60,0.15); display: flex; align-items: center; gap: 12px;">
+            <div style="width: 32px; height: 32px; background: linear-gradient(135deg, #dc143c, #ff69b4); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: bold; color: #fff; font-size: 14px;">S</div>
+            <div>
+              <strong style="color: #ff69b4; font-family: sans-serif; font-size: 14.5px;">Smart Presence</strong>
+              <div style="font-family: monospace; font-size: 11.5px; color: #c0a0a0; margin-top: 2px;">Sistem absensi modern, akurat, dan manajemen kehadiran terintegrasi.</div>
+            </div>
+          </div>
+          <div style="margin-bottom: 12px; padding: 12px; background: rgba(220,20,60,0.04); border-radius: 12px; border: 1px solid rgba(220,20,60,0.15); display: flex; align-items: center; gap: 12px;">
+            <div style="width: 32px; height: 32px; background: linear-gradient(135deg, #dc143c, #ff69b4); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: bold; color: #fff; font-size: 14px;">E</div>
+            <div>
+              <strong style="color: #ff69b4; font-family: sans-serif; font-size: 14.5px;">Expense Tracker</strong>
+              <div style="font-family: monospace; font-size: 11.5px; color: #c0a0a0; margin-top: 2px;">Aplikasi pencatatan dan pengelolaan keuangan pribadi yang informatif.</div>
+            </div>
+          </div>
+          <div style="padding: 12px; background: rgba(220,20,60,0.04); border-radius: 12px; border: 1px solid rgba(220,20,60,0.15); display: flex; align-items: center; gap: 12px;">
+            <div style="width: 32px; height: 32px; background: linear-gradient(135deg, #dc143c, #ff69b4); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: bold; color: #fff; font-size: 14px;">A</div>
+            <div>
+              <strong style="color: #ff69b4; font-family: sans-serif; font-size: 14.5px;">AI Second Brain</strong>
+              <div style="font-family: monospace; font-size: 11.5px; color: #c0a0a0; margin-top: 2px;">Asisten AI personal untuk manajemen basis pengetahuan secara pintar.</div>
+            </div>
           </div>
         </div>
-        <!-- Backend -->
-        <div align="left" style="margin-bottom: 14px;">
-          <div style="font-family: monospace; font-size: 11px; color: #ff69b4; letter-spacing: 2px; margin-bottom: 8px;">BACKEND</div>
-          <div>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="28" alt="Laravel" style="margin: 2px;" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="28" alt="Node.js" style="margin: 2px;" />
-            <span style="font-family: monospace; font-size: 13px; color: #c0a0a0; vertical-align: middle; margin: 2px;">Express</span>
-          </div>
-        </div>
-        <!-- Frontend -->
-        <div align="left" style="margin-bottom: 14px;">
-          <div style="font-family: monospace; font-size: 11px; color: #ff69b4; letter-spacing: 2px; margin-bottom: 8px;">FRONTEND</div>
-          <div>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="28" alt="React" style="margin: 2px;" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="28" alt="TailwindCSS" style="margin: 2px;" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" height="28" alt="Vite" style="margin: 2px;" />
-          </div>
-        </div>
-        <!-- Database -->
-        <div align="left" style="margin-bottom: 14px;">
-          <div style="font-family: monospace; font-size: 11px; color: #ff69b4; letter-spacing: 2px; margin-bottom: 8px;">DATABASE</div>
-          <div>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="28" alt="MySQL" style="margin: 2px;" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="28" alt="SQLite" style="margin: 2px;" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="28" alt="Redis" style="margin: 2px;" />
-          </div>
-        </div>
-        <!-- Tools -->
-        <div align="left">
-          <div style="font-family: monospace; font-size: 11px; color: #ff69b4; letter-spacing: 2px; margin-bottom: 8px;">TOOLS</div>
-          <div>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="28" alt="Git" style="margin: 2px;" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="28" alt="Docker" style="margin: 2px;" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="28" alt="VS Code" style="margin: 2px;" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="28" alt="Figma" style="margin: 2px;" />
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="28" alt="Linux" style="margin: 2px;" />
+
+        <!-- Tech Stack Badge Area -->
+        <div style="border-top: 1px solid rgba(220,20,60,0.25); padding-top: 15px; margin-top: 15px;">
+          <div style="font-family: monospace; font-size: 11px; color: #ff69b4; letter-spacing: 2px; margin-bottom: 10px; font-weight: bold;">TEKNOLOGI DAN ALAT</div>
+          <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+            <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" height="22" alt="Laravel" />
+            <img src="https://img.shields.io/badge/Golang-00ADD8?style=flat-square&logo=go&logoColor=white" height="22" alt="Go" />
+            <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" height="22" alt="React" />
+            <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" height="22" alt="Node.js" />
+            <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" height="22" alt="MySQL" />
+            <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" height="22" alt="Docker" />
+            <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" height="22" alt="Git" />
           </div>
         </div>
       </div>
@@ -211,78 +196,35 @@
 
 <br>
 
-<!-- SECTION 4: CURRENT FOCUS | QUOTE | GITHUB STATS -->
+<!-- QUOTE OF THE DAY -->
+<div align="center" style="background: #0f0204; border: 1px solid rgba(220,20,60,0.3); border-radius: 20px; padding: 30px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.1), inset 0 0 30px rgba(220,20,60,0.05); margin: 0 10px;">
+  <div style="font-size: 36px; color: #dc143c; opacity: 0.2; line-height: 0; margin-bottom: 20px;">"</div>
+  <div style="font-family: 'Georgia', serif; font-size: 19px; font-style: italic; color: #ff69b4; line-height: 1.6; text-shadow: 0 0 15px rgba(255,105,180,0.15);">
+    Setiap baris kode adalah detak jam yang menentukan masa depan.<br>Mari kita bangun sesuatu yang luar biasa, satu baris kode demi satu baris kode.
+  </div>
+  <div style="margin-top: 18px; width: 60px; height: 1px; background: linear-gradient(90deg, transparent, #dc143c, transparent);"></div>
+  <div style="margin-top: 12px; font-family: 'Courier New', monospace; font-size: 12px; color: #dc143c; opacity: 0.6; letter-spacing: 2px; font-weight: bold;">— EHAN</div>
+</div>
+
+<br>
+
+<!-- GITHUB STATS DASHBOARD (TWO-COLUMN GRID) -->
 <table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
   <tr>
-    <!-- LEFT: Current Focus -->
-    <td width="33%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
-        <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
-          <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">CURRENT FOCUS</span>
+    <td width="50%" style="padding: 10px; vertical-align: top;">
+      <div align="center" style="background: #0f0204; border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 20px; min-height: 300px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: inset 0 0 15px rgba(220,20,60,0.02);">
+        <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 10px; margin-bottom: 15px; width: 100%;">
+          <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px; font-weight: bold;">📊 GITHUB STATS</span>
         </div>
-        <div align="left" style="font-family: monospace; font-size: 12px;">
-          <div style="margin-bottom: 14px;">
-            <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-              <span style="color: #c0a0a0;">Laravel Mastery</span>
-              <span style="color: #ff69b4;">85%</span>
-            </div>
-            <div style="height: 6px; background: rgba(220,20,60,0.1); border-radius: 3px; overflow: hidden;">
-              <div style="width: 85%; height: 100%; background: linear-gradient(90deg, #dc143c, #ff69b4); border-radius: 3px; box-shadow: 0 0 8px rgba(220,20,60,0.3);"></div>
-            </div>
-          </div>
-          <div style="margin-bottom: 14px;">
-            <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-              <span style="color: #c0a0a0;">Golang Backend</span>
-              <span style="color: #ff69b4;">60%</span>
-            </div>
-            <div style="height: 6px; background: rgba(220,20,60,0.1); border-radius: 3px; overflow: hidden;">
-              <div style="width: 60%; height: 100%; background: linear-gradient(90deg, #dc143c, #ff69b4); border-radius: 3px; box-shadow: 0 0 8px rgba(220,20,60,0.3);"></div>
-            </div>
-          </div>
-          <div style="margin-bottom: 14px;">
-            <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-              <span style="color: #c0a0a0;">React & Modern UI</span>
-              <span style="color: #ff69b4;">70%</span>
-            </div>
-            <div style="height: 6px; background: rgba(220,20,60,0.1); border-radius: 3px; overflow: hidden;">
-              <div style="width: 70%; height: 100%; background: linear-gradient(90deg, #dc143c, #ff69b4); border-radius: 3px; box-shadow: 0 0 8px rgba(220,20,60,0.3);"></div>
-            </div>
-          </div>
-          <div>
-            <div style="display: flex; justify-content: space-between; margin-bottom: 4px;">
-              <span style="color: #c0a0a0;">Clean Architecture</span>
-              <span style="color: #ff69b4;">90%</span>
-            </div>
-            <div style="height: 6px; background: rgba(220,20,60,0.1); border-radius: 3px; overflow: hidden;">
-              <div style="width: 90%; height: 100%; background: linear-gradient(90deg, #dc143c, #ff69b4); border-radius: 3px; box-shadow: 0 0 8px rgba(220,20,60,0.3);"></div>
-            </div>
-          </div>
-        </div>
+        <img src="https://github-readme-stats.vercel.app/api?username=ehanz12&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0f0204&title_color=ff69b4&icon_color=dc143c&text_color=c0a0a0&ring_color=dc143c&card_width=320" alt="GitHub Stats" width="100%" />
       </div>
     </td>
-    <!-- CENTER: Quote -->
-    <td width="34%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="display: flex; flex-direction: column; justify-content: center; align-items: center; background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 32px 24px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
-        <div style="font-size: 36px; color: #dc143c; opacity: 0.15; line-height: 0; margin-bottom: 20px;">"</div>
-        <div style="font-family: Georgia, serif; font-size: 20px; font-style: italic; color: #ff69b4; line-height: 1.6; text-shadow: 0 0 20px rgba(255,105,180,0.1);">
-          Every line of code<br>is a tick of the clock.
+    <td width="50%" style="padding: 10px; vertical-align: top;">
+      <div align="center" style="background: #0f0204; border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 20px; min-height: 300px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: inset 0 0 15px rgba(220,20,60,0.02);">
+        <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 10px; margin-bottom: 15px; width: 100%;">
+          <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px; font-weight: bold;">💻 BAHASA TERPOPULER</span>
         </div>
-        <div style="margin-top: 20px; width: 60px; height: 1px; background: linear-gradient(90deg, transparent, #dc143c, transparent);"></div>
-        <div style="margin-top: 12px; font-family: 'Courier New', monospace; font-size: 11px; color: #dc143c; opacity: 0.5;">— Ehan</div>
-      </div>
-    </td>
-    <!-- RIGHT: GitHub Stats Dashboard -->
-    <td width="33%" style="padding: 8px; vertical-align: top;">
-      <div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03);">
-        <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
-          <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">GITHUB STATS</span>
-        </div> 
-        <div>
-          <img height="150em" src="https://github-readme-stats.vercel.app/api?username=ehanz12&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0a0000&title_color=ff69b4&icon_color=dc143c&text_color=c0a0a0&ring_color=dc143c&custom_title=Dashboard&card_width=300" alt="GitHub Stats" />
-        </div>
-        <div style="margin-top: 8px;">
-          <img height="120em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ehanz12&layout=compact&hide_border=true&bg_color=0a0000&title_color=ff69b4&text_color=c0a0a0&card_width=300" alt="Top Languages" />
-        </div>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ehanz12&layout=compact&hide_border=true&bg_color=0f0204&title_color=ff69b4&text_color=c0a0a0&card_width=320" alt="Top Languages" width="100%" />
       </div>
     </td>
   </tr>
@@ -290,40 +232,40 @@
 
 <br>
 
-<!-- SECTION 5: TROPHIES -->
-<div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03); margin: 0 8px;">
-  <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 20px;">
-    <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">🏆 GITHUB TROPHIES</span>
+<!-- GITHUB TROPHIES -->
+<div align="center" style="background: #0f0204; border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 20px; margin: 0 10px; box-shadow: inset 0 0 15px rgba(220,20,60,0.02);">
+  <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 10px; margin-bottom: 15px;">
+    <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px; font-weight: bold;">🏆 GITHUB TROPHIES</span>
   </div>
   <img src="https://github-profile-trophy.vercel.app/?username=ehanz12&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7&row=1" alt="Trophies" width="100%" />
 </div>
 
 <br>
 
-<!-- STREAK STATS -->
-<div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03); margin: 0 8px;">
-  <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
-    <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">⬡ STREAK TRACKER</span>
+<!-- STREAK TRACKER -->
+<div align="center" style="background: #0f0204; border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 20px; margin: 0 10px; box-shadow: inset 0 0 15px rgba(220,20,60,0.02);">
+  <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 10px; margin-bottom: 15px;">
+    <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px; font-weight: bold;">🔥 STREAK TRACKER</span>
   </div>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ehanz12&hide_border=true&background=0a0000&ring=dc143c&fire=ff69b4&currStreakLabel=ff69b4&sideLabels=c0a0a0&currStreakNum=c0a0a0&sideNums=c0a0a0&dates=5a3a3a" alt="Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ehanz12&hide_border=true&background=0f0204&ring=dc143c&fire=ff69b4&currStreakLabel=ff69b4&sideLabels=c0a0a0&currStreakNum=c0a0a0&sideNums=c0a0a0&dates=5a3a3a" alt="Streak Stats" />
 </div>
 
 <br>
 
-<!-- ACTIVITY GRAPH -->
-<div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03); margin: 0 8px;">
-  <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
-    <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">◈ CONTRIBUTION GRAPH</span>
+<!-- CONTRIBUTION GRAPH -->
+<div align="center" style="background: #0f0204; border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 20px; margin: 0 10px; box-shadow: inset 0 0 15px rgba(220,20,60,0.02);">
+  <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 10px; margin-bottom: 15px;">
+    <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px; font-weight: bold;">📈 GRAFIK KONTRIBUSI</span>
   </div>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ehanz12&radius=8&bg_color=0a000a&color=dc143c&line=ff69b4&point=dc143c&area=true&area_color=dc143c&hide_border=true" alt="Activity Graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ehanz12&radius=8&bg_color=0f0204&color=dc143c&line=ff69b4&point=dc143c&area=true&area_color=dc143c&hide_border=true" alt="Activity Graph" width="100%" />
 </div>
 
 <br>
 
-<!-- SNAKE ANIMATION -->
-<div align="center" style="background: linear-gradient(145deg, rgba(26,5,5,0.8), rgba(10,0,0,0.9)); border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 24px 20px; box-shadow: 0 0 30px rgba(220,20,60,0.08), inset 0 0 30px rgba(220,20,60,0.03); margin: 0 8px;">
-  <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 12px; margin-bottom: 16px;">
-    <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px;">≋ CONTRIBUTION SNAKE</span>
+<!-- CONTRIBUTION SNAKE ANIMATION -->
+<div align="center" style="background: #0f0204; border: 1px solid rgba(220,20,60,0.25); border-radius: 16px; padding: 20px; margin: 0 10px; box-shadow: inset 0 0 15px rgba(220,20,60,0.02);">
+  <div style="border-bottom: 2px solid rgba(220,20,60,0.3); padding-bottom: 10px; margin-bottom: 15px;">
+    <span style="font-family: Georgia, serif; font-size: 14px; color: #dc143c; letter-spacing: 3px; font-weight: bold;">🐍 KONTRIBUSI SNAKE</span>
   </div>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ehanz12/ehanz12/output/snake.svg" />
@@ -339,13 +281,13 @@
 <br>
 
 <p align="center">
-  <sub style="font-family: 'Courier New', monospace; font-size: 11px; color: #3a1a1a; letter-spacing: 2px;">
-    RHAN — Fullstack Developer Portfolio
+  <sub style="font-family: 'Courier New', monospace; font-size: 11px; color: #ff69b4; letter-spacing: 2px; font-weight: bold;">
+    EHAN — Fullstack Developer Portfolio
   </sub>
 </p>
 
 <p align="center">
-  <sub style="font-family: monospace; font-size: 10px; color: #2a1010;">
-    crafted with ❤ using PHP · JavaScript · Go
+  <sub style="font-family: monospace; font-size: 10px; color: #dc143c;">
+    dibuat dengan ❤ menggunakan PHP · JavaScript · Go
   </sub>
 </p>
