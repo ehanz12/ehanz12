@@ -1,42 +1,32 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:0f0f0f,100:00ff9c&height=220&section=header&text=RHANZ.EXE&fontSize=60&fontColor=00ff9c&animation=twinkling&fontAlignY=35&desc=%3E%20FULLSTACK%20DEVELOPER%20_%20GOLANG%20SPECIALIST&descAlignY=58&descSize=16&descColor=00ff9c" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=230&section=header&text=Rhanz%20Ap&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Fullstack%20Developer%20%E2%80%A2%20Golang%20Specialist&descAlignY=52&descSize=20&descColor=f0f0f0" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=00FF9C&center=true&vCenter=true&width=600&lines=%3E+whoami;RHANZ+%40+PELITA_NUSANTARA_VHS;%3E+status%3A+ONLINE;%3E+stack%3A+PHP+%2F+JS+%2F+GOLANG;%3E+focus%3A+GOLANG+%5B%7C%7C%7C%7C%7C%7C%7C%7C%7C%7C%5D+92%25" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=20&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&width=650&lines=Building+reliable+backend+systems+with+Go;Crafting+clean%2C+modern+web+experiences;Fullstack+Developer+%7C+PHP+%C2%B7+JavaScript+%C2%B7+Golang;Currently+leveling+up+in+Golang+%F0%9F%9A%80" alt="Typing SVG"/>
 
 </div>
 
 <br>
 
-```
-┌──────────────────────────────────────────────────────────┐
-│  root@rhanz:~$ cat about_me.txt                            │
-└──────────────────────────────────────────────────────────┘
-```
+## 👋 Tentang Saya
 
-<h4 align="left">
-🔦 Student at Pelita Nusantara Vocational High School, Bogor.<br>
-📒 Fullstack Developer — operating across the entire stack, frontend to backend to database.<br>
-🔔 Core languages: PHP, JavaScript, Golang.<br>
-⚡ Golang is my main weapon — building fast, concurrent, production-grade backend systems.<br>
-🛰️ Always compiling. Always deploying.
-</h4>
+Saya adalah seorang **Fullstack Developer** yang saat ini menempuh pendidikan di **SMK Pelita Nusantara, Bogor**. Saya senang membangun aplikasi web dari ujung ke ujung — mulai dari merancang antarmuka yang rapi, menyusun logika backend yang efisien, hingga mengelola data dengan struktur yang solid.
+
+Belakangan ini saya fokus memperdalam **Golang**, karena saya tertarik pada bagaimana bahasa ini membantu membangun sistem backend yang cepat, ringan, dan mudah diandalkan untuk aplikasi skala nyata. Di luar itu, saya tetap aktif menggunakan **PHP** dan **JavaScript** untuk berbagai proyek fullstack.
+
+Saya percaya kode yang baik bukan hanya soal berjalan dengan benar, tapi juga mudah dibaca, dirawat, dan dikembangkan — itu prinsip yang selalu saya pegang di setiap proyek.
 
 <div align="center">
 
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-00ff9c?style=for-the-badge&labelColor=0f0f0f"/>
-  <img src="https://img.shields.io/badge/ROLE-FULLSTACK_DEV-00ff9c?style=for-the-badge&labelColor=0f0f0f"/>
-  <img src="https://img.shields.io/badge/MAIN_WEAPON-GOLANG-00ADD8?style=for-the-badge&logo=go&logoColor=00ff9c&labelColor=0f0f0f"/>
+  <img src="https://img.shields.io/badge/Status-Actively%20Learning-6C63FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Role-Fullstack%20Developer-2E86AB?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Focus-Golang-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
 
 </div>
 
 <br>
 
-```
-┌──────────────────────────────────────────────────────────┐
-│  root@rhanz:~$ ./connect --socials                         │
-└──────────────────────────────────────────────────────────┘
-```
+## 🌐 Terhubung Dengan Saya
 
 <div align="center">
 
@@ -54,80 +44,60 @@
 
 <br>
 
-```
-┌──────────────────────────────────────────────────────────┐
-│  root@rhanz:~$ ls -la /tech_stack                          │
-└──────────────────────────────────────────────────────────┘
-```
+## 🛠️ Tech Stack
 
-<div align="center">
+<p align="center"><i>Kumpulan bahasa, framework, dan tools yang saya gunakan sehari-hari untuk membangun produk digital.</i></p>
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" height="45" alt="golang logo"/>
-  <img width="14"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="45" alt="javascript logo"/>
-  <img width="14"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="45" alt="php logo"/>
-  <img width="14"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="45" alt="html5 logo"/>
-  <img width="14"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="45" alt="css3 logo"/>
-  <img width="14"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="45" alt="tailwindcss logo"/>
-  <br><br>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" height="45" alt="nodejs logo"/>
-  <img width="14"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="45" alt="laravel logo"/>
-  <img width="14"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="45" alt="mysql logo"/>
-  <img width="14"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="45" alt="sqlite logo"/>
-  <img width="14"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="45" alt="npm logo"/>
-  <img width="14"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="45" alt="figma logo"/>
-  <img width="14"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="45" alt="vscode logo"/>
-
-</div>
+<table align="center">
+<tr>
+<td align="center" width="140"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg" height="48"/><br><b>Golang</b></td>
+<td align="center" width="140"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="48"/><br><b>JavaScript</b></td>
+<td align="center" width="140"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="48"/><br><b>PHP</b></td>
+<td align="center" width="140"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="48"/><br><b>Laravel</b></td>
+<td align="center" width="140"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" height="48"/><br><b>Node.js</b></td>
+</tr>
+<tr>
+<td align="center" width="140"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="48"/><br><b>HTML5</b></td>
+<td align="center" width="140"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="48"/><br><b>CSS3</b></td>
+<td align="center" width="140"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="48"/><br><b>Tailwind</b></td>
+<td align="center" width="140"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="48"/><br><b>MySQL</b></td>
+<td align="center" width="140"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="48"/><br><b>SQLite</b></td>
+</tr>
+<tr>
+<td align="center" width="140"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="48"/><br><b>NPM</b></td>
+<td align="center" width="140"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="48"/><br><b>Figma</b></td>
+<td align="center" width="140"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="48"/><br><b>VS Code</b></td>
+<td></td>
+<td></td>
+</tr>
+</table>
 
 <br>
 
-```
-┌──────────────────────────────────────────────────────────┐
-│  root@rhanz:~$ ./run --diagnostics --github-stats           │
-└──────────────────────────────────────────────────────────┘
-```
+## 📊 Statistik GitHub
 
 <div align="center">
 
-  <img src="https://github-readme-stats.vercel.app/api?username=ehanz12&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0f0f0f&title_color=00ff9c&icon_color=00ff9c&text_color=c9c9c9&count_private=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ehanz12&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0f0f0f&title_color=00ff9c&text_color=c9c9c9" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ehanz12&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=6C63FF&icon_color=6C63FF" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ehanz12&layout=compact&theme=tokyonight&hide_border=true&title_color=6C63FF" height="165"/>
 
 </div>
 
 <div align="center">
 
-  <img src="https://streak-stats.demolab.com/?user=ehanz12&theme=dark&hide_border=true&background=0f0f0f&ring=00ff9c&fire=00ff9c&currStreakLabel=00ff9c" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com/?user=ehanz12&theme=tokyonight&hide_border=true&ring=6C63FF&fire=FF6B6B&currStreakLabel=6C63FF" alt="GitHub Streak"/>
 
 </div>
 
-```
-┌──────────────────────────────────────────────────────────┐
-│  root@rhanz:~$ tail -f activity.log                        │
-└──────────────────────────────────────────────────────────┘
-```
+## 📈 Aktivitas Kontribusi
 
 <div align="center">
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ehanz12&radius=16&theme=github-compact&bg_color=0f0f0f&color=00ff9c&line=00ff9c&point=ffffff&area=true&area_color=00ff9c&order=5" height="300" alt="activity-graph graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ehanz12&radius=16&theme=tokyo-night&area=true&order=5" height="300" alt="activity-graph graph"/>
 
 </div>
 
-```
-┌──────────────────────────────────────────────────────────┐
-│  root@rhanz:~$ ./stream --now-playing                      │
-└──────────────────────────────────────────────────────────┘
-```
+## 🎧 Sedang Didengarkan
 
 <div align="center">
 
@@ -145,10 +115,16 @@
 
 </div>
 
+<br>
+
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:00ff9c,100:0f0f0f&height=120&section=footer&text=connection_closed&fontColor=00ff9c&fontSize=16"/>
+  <i>"Kode yang baik ditulis untuk manusia, bukan hanya untuk mesin."</i>
 
-  <img src="https://komarev.com/ghpvc/?username=ehanz12&label=PROFILE+VIEWS&color=00ff9c&style=for-the-badge&labelColor=0f0f0f"/>
+  <br><br>
+
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
+
+  <img src="https://komarev.com/ghpvc/?username=ehanz12&label=Profile%20Views&color=6C63FF&style=for-the-badge"/>
 
 </div>
