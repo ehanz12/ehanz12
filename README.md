@@ -1,19 +1,42 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:22d3ee&height=200&section=header&text=Hi%20There!%20I'm%20Rhanz%20👋&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Fullstack%20Developer%20%7C%20Golang%20Enthusiast&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:0f0f0f,100:00ff9c&height=220&section=header&text=RHANZ.EXE&fontSize=60&fontColor=00ff9c&animation=twinkling&fontAlignY=35&desc=%3E%20FULLSTACK%20DEVELOPER%20_%20GOLANG%20SPECIALIST&descAlignY=58&descSize=16&descColor=00ff9c" width="100%"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=00FF9C&center=true&vCenter=true&width=600&lines=%3E+whoami;RHANZ+%40+PELITA_NUSANTARA_VHS;%3E+status%3A+ONLINE;%3E+stack%3A+PHP+%2F+JS+%2F+GOLANG;%3E+focus%3A+GOLANG+%5B%7C%7C%7C%7C%7C%7C%7C%7C%7C%7C%5D+92%25" alt="Typing SVG" />
 
 </div>
 
-<h1 align="center">💫 About Me</h1>
+<br>
+
+```
+┌──────────────────────────────────────────────────────────┐
+│  root@rhanz:~$ cat about_me.txt                            │
+└──────────────────────────────────────────────────────────┘
+```
 
 <h4 align="left">
-🔦 I am a student at Pelita Nusantara Vocational High School, Bogor.<br>
-📒 I am a Fullstack Developer, comfortable across the whole stack from database to UI.<br>
-🔔 My core languages are PHP, JavaScript, and Golang — and Golang is where I go deep, building fast, concurrent, and reliable backend services.<br>
-🚀 Always learning, always shipping.
+🔦 Student at Pelita Nusantara Vocational High School, Bogor.<br>
+📒 Fullstack Developer — operating across the entire stack, frontend to backend to database.<br>
+🔔 Core languages: PHP, JavaScript, Golang.<br>
+⚡ Golang is my main weapon — building fast, concurrent, production-grade backend systems.<br>
+🛰️ Always compiling. Always deploying.
 </h4>
 
-<p align="left"></p>
+<div align="center">
+
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-00ff9c?style=for-the-badge&labelColor=0f0f0f"/>
+  <img src="https://img.shields.io/badge/ROLE-FULLSTACK_DEV-00ff9c?style=for-the-badge&labelColor=0f0f0f"/>
+  <img src="https://img.shields.io/badge/MAIN_WEAPON-GOLANG-00ADD8?style=for-the-badge&logo=go&logoColor=00ff9c&labelColor=0f0f0f"/>
+
+</div>
+
+<br>
+
+```
+┌──────────────────────────────────────────────────────────┐
+│  root@rhanz:~$ ./connect --socials                         │
+└──────────────────────────────────────────────────────────┘
+```
 
 <div align="center">
 
@@ -31,16 +54,11 @@
 
 <br>
 
-<h2 align="center">🛠️ Tech Stack</h2>
-
-<div align="center">
-
-  <img src="https://img.shields.io/badge/-Fullstack%20Developer-6366f1?style=for-the-badge&logo=stackshare&logoColor=white"/>
-  <img src="https://img.shields.io/badge/-Golang%20Enthusiast-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
-
-</div>
-
-<br>
+```
+┌──────────────────────────────────────────────────────────┐
+│  root@rhanz:~$ ls -la /tech_stack                          │
+└──────────────────────────────────────────────────────────┘
+```
 
 <div align="center">
 
@@ -74,30 +92,42 @@
 
 <br>
 
-<h2 align="center">📊 GitHub Stats</h2>
+```
+┌──────────────────────────────────────────────────────────┐
+│  root@rhanz:~$ ./run --diagnostics --github-stats           │
+└──────────────────────────────────────────────────────────┘
+```
 
 <div align="center">
 
-  <img src="https://github-readme-stats.vercel.app/api?username=ehanz12&show_icons=true&theme=react&hide_border=true&count_private=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ehanz12&layout=compact&theme=react&hide_border=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ehanz12&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0f0f0f&title_color=00ff9c&icon_color=00ff9c&text_color=c9c9c9&count_private=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ehanz12&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0f0f0f&title_color=00ff9c&text_color=c9c9c9" height="165"/>
 
 </div>
 
 <div align="center">
 
-  <img src="https://streak-stats.demolab.com/?user=ehanz12&theme=react&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com/?user=ehanz12&theme=dark&hide_border=true&background=0f0f0f&ring=00ff9c&fire=00ff9c&currStreakLabel=00ff9c" alt="GitHub Streak"/>
 
 </div>
 
-<h2 align="center">📈 Activity</h2>
+```
+┌──────────────────────────────────────────────────────────┐
+│  root@rhanz:~$ tail -f activity.log                        │
+└──────────────────────────────────────────────────────────┘
+```
 
 <div align="center">
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ehanz12&radius=16&theme=react&area=true&order=5" height="300" alt="activity-graph graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ehanz12&radius=16&theme=github-compact&bg_color=0f0f0f&color=00ff9c&line=00ff9c&point=ffffff&area=true&area_color=00ff9c&order=5" height="300" alt="activity-graph graph"/>
 
 </div>
 
-<h2 align="center">🎧 Now Playing</h2>
+```
+┌──────────────────────────────────────────────────────────┐
+│  root@rhanz:~$ ./stream --now-playing                      │
+└──────────────────────────────────────────────────────────┘
+```
 
 <div align="center">
 
@@ -117,6 +147,8 @@
 
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,100:6366f1&height=120&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:00ff9c,100:0f0f0f&height=120&section=footer&text=connection_closed&fontColor=00ff9c&fontSize=16"/>
+
+  <img src="https://komarev.com/ghpvc/?username=ehanz12&label=PROFILE+VIEWS&color=00ff9c&style=for-the-badge&labelColor=0f0f0f"/>
 
 </div>
